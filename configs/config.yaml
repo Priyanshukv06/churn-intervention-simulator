@@ -1,0 +1,24 @@
+data:
+  raw_path: "data/raw/telco_churn.csv"
+  test_size: 0.2
+  random_state: 42
+
+model:
+  xgb_params:
+    n_estimators: 300
+    max_depth: 6
+    learning_rate: 0.05
+    subsample: 0.8
+    colsample_bytree: 0.8
+    use_label_encoder: false
+    eval_metric: "logloss"
+    device: "cuda"          # ← Your RTX 3060 kicks in here!
+    random_state: 42
+  model_save_path: "models/xgb_model.pkl"
+  preprocessor_save_path: "models/preprocessor.pkl"
+
+database:
+  path: "data/sessions.db"
+
+eval:
+  artifacts_path: "models/eval_artifacts/"

@@ -1,0 +1,32 @@
+# ── Core ML ───────────────────────────────────────────
+xgboost==2.0.3
+scikit-learn==1.4.2
+shap==0.46.0
+imbalanced-learn==0.12.3
+
+# ── Data ──────────────────────────────────────────────
+pandas==2.2.2
+numpy==1.26.4
+
+# ── App ───────────────────────────────────────────────
+streamlit==1.43.0
+streamlit-shap==1.0.2
+plotly==5.22.0
+
+# ── Database ──────────────────────────────────────────
+sqlalchemy==2.0.30
+
+# ── Config & Serialization ────────────────────────────
+pyyaml==6.0.1
+joblib==1.4.2
+
+# ── Testing & Linting ─────────────────────────────────
+pytest==8.2.0
+pytest-cov==5.0.0
+black==24.4.2
+flake8==7.0.0
+isort==5.13.2
+
+# ── Visualization ─────────────────────────────────────
+matplotlib==3.8.4
+seaborn==0.13.2

@@ -205,3 +205,29 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# Environments
+.env
+venv/
+.venv/
+
+# Data (raw data should not be in git — too large)
+data/raw/
+data/processed/
+
+# Model artifacts (we'll handle with Git LFS later)
+models/*.pkl
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Pytest / Coverage
+.coverage
+htmlcov/
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
