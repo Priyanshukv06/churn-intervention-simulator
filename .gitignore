@@ -217,10 +217,10 @@ data/raw/
 data/processed/
 
 # Model artifacts (we'll handle with Git LFS later)
-models/*.pkl
+#models/*.pkl
 
 # Streamlit
-.streamlit/secrets.toml
+#.streamlit/secrets.toml
 
 # Pytest / Coverage
 .coverage
