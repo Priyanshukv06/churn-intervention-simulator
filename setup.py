@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="churn_simulator",
-    version="0.1.0",
+    name="churn-intervention-simulator",
+    version="1.0.0",
     packages=find_packages(),
 )
