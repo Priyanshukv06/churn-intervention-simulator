@@ -1,3 +1,8 @@
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+
 from src.database import init_db
 init_db()  # Ensure DB and table exist on every cold start
 
